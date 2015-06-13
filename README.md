@@ -2,7 +2,7 @@
 
 This is an example project that uses protocol buffers for Objective-C, using
 [Google's officially supported runtime](https://github.com/google/protobuf/tree/master/objectivec)
-and its corresponding [CocoaPods Pod](https://cocoapods.org/pods/Protobuf).
+and its corresponding [Protobuf Pod](https://cocoapods.org/pods/Protobuf).
 
 ## Setup
 

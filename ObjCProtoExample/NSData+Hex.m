@@ -8,10 +8,11 @@
     return @"";
   }
   
-  NSMutableString *hexString = [NSMutableString stringWithCapacity:length * 3];
+  NSMutableString *hexString = [NSMutableString stringWithCapacity:(length * 3) - 1];
   const unsigned char *buffer = (const unsigned char *)[self bytes];
   for (int i = 0; i < length; i++) {
-    [hexString appendFormat:@"%02x ", buffer[i]];
+    NSString *format = (i == 0) ? @"%02x" : @" %02x";
+    [hexString appendFormat:format, buffer[i]];
   }
   return hexString;
 }
