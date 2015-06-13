@@ -2,8 +2,8 @@
 // source: foo.proto
 
 #import "GPBProtocolBuffers_RuntimeSupport.h"
-
 #import "Foo.pbobjc.h"
+// @@protoc_insertion_point(imports)
 
 #pragma mark - FooRoot
 
@@ -140,3 +140,5 @@ BOOL Person_Gender_IsValidValue(int32_t value__) {
   }
 }
 
+
+// @@protoc_insertion_point(global_scope)
